@@ -1,0 +1,42 @@
+const colors = {
+    primary: "#FFD8E1",
+    secondary: "#FEEBF6",
+    background: "#F5F5F5",
+    backgroundSecondary: "#FEEBF6",
+    textPrimary: "#111827",
+    textSecondary: "#6C7278",
+    buttonPrimary: "#D63B58",
+    buttonSecondary: "#C52C46",
+    buttonText: "#FFFFFF",
+    iconPrimary: "#D01F42",
+    iconSecondary: "#ACB5BB",
+    iconWhite: '#FFFFFF',
+    iconBackground: '#F0F0F0',
+    placeHolerText: "#999999",
+    textInputText: "#000000",
+    staticLabel: '#6C7278',
+    headLineLabel: '#111827',
+    textInputBorder: "#EDF1F3",
+    textInputContainerBackground: '#F8F8F8',
+    screenTitle: '#FFFFFF',
+    cardLabel: '#115BB6',
+    cardValue: '#1976D2',
+    cardTitle: '#000000',
+    cardBackground: '#FFFFFF',
+    cardBorder: '#EEEEEE',
+    dot: '#E10031',
+    error: "#B00020",
+    darkBackgroundGradientColorShade1: '#F8BFC2',
+    darkBackgroundGradientColorShade2: '#FDEDED',
+    darkBackgroundGradientColorShade3: '#F8BFC2',
+    lightBackgroundGradientColorShade1: '#FFFBFB',
+    lightBackgroundGradientColorShade2: '#FEFAFA',
+    lightBackgroundGradientColorShade3: '#FCEFEF',
+    lightBackgroundGradientColorShade4: '#FDEBEB',
+    graphMalePrimary: '#66B3FF',
+    graphFemalePrimary: '#FF99BB'
+
+} as const;
+
+export type Colors = typeof colors;
+export default colors;
